@@ -3,31 +3,35 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
         <script src="https://cdn.tailwindcss.com"></script>
         <title>Document</title>
     </head>
-    <body class="min-h-screen grid grid-rows-[auto_1fr_1fr_1fr_auto] font-mono">
-        <header class="flex justify-evenly items-center bg-blue-500 px-8 py-4">
+    <body class="min-h-screen grid grid-rows-[auto_1fr_auto] font-mono">
+        <!-- Navbar -->
+        <header class="flex justify-evenly items-center bg-blue-500 px-4 py-4 gap-2">
             <div class="flex justify-center items-center gap-1">
                 <!-- <img src="/assets/menu-svgrepo-com.svg" alt="menu ejoy the app" class="h-9 w-9 cursor-pointer hover:scale-110"> -->
                 <a href="/index.html">
-                    <h1 class="text-white font-bold italic text-3xl flex justify-center items-center gap-1">
+                    <h1 class="text-white font-bold italic text-2xl flex justify-center items-center gap-1 cursor-pointer hover:text-gray-700">
                         <p>Enjoy</p>
                         <p>The</p>
                         <p class="pl-1">App</p>
                     </h1>
                 </a>
             </div>
-            <a href="https://www.linkedin.com/in/jos%C3%A9-pablo-lubiano-08559b9a/" target="_blank">
-                <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Flinkedin-logo-svgrepo-com.svg?alt=media&token=5a103763-09de-4085-b0ba-1fa5dcf109aa" alt="linkedin enjoy the app" class="h-9 w-9 cursor-pointer hover:scale-110">
-            </a>
-            <a href="https://github.com/lubiano83" target="_blank">
-                <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fgithub-svgrepo-com.svg?alt=media&token=9e2599df-42e4-49e8-a6ed-62c9271a8f86" alt="github enjoy the app" class="h-9 w-9 cursor-pointer hover:scale-110">
-            </a>
+            <div class="flex justify-center items-center gap-2">
+                <a href="https://www.linkedin.com/in/jos%C3%A9-pablo-lubiano-08559b9a/" target="_blank">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Flinkedin-logo-svgrepo-com.svg?alt=media&token=5a103763-09de-4085-b0ba-1fa5dcf109aa" alt="linkedin enjoy the app" class="h-9 w-9 cursor-pointer hover:scale-110">
+                </a>
+                <a href="https://github.com/lubiano83" target="_blank">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fgithub-svgrepo-com.svg?alt=media&token=9e2599df-42e4-49e8-a6ed-62c9271a8f86" alt="github enjoy the app" class="h-9 w-9 cursor-pointer hover:scale-110">
+                </a>
+            </div>
         </header>
-
-        <main class="w-screen flex justify-center items-center">
-            <div class="flex justify-center items-center flex-wrap w-auto min-w-72 p-8 gap-8">
+        <main class="flex flex-col justify-center items-center gap-8">
+            <!-- Inicio -->
+            <section class="min-h-screen w-screen flex justify-center items-center gap-8 flex-wrap p-8">
                 <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fenjoy-the-app.webp?alt=media&token=5aa384e2-06d7-4538-886f-c034c36f7832" alt="image enjoy the app" class="max-w-2xl w-auto min-w-72">
                 <article class="flex flex-col gap-4 max-w-2xl">
                     <strong class="text-2xl text-blue-500">¡Bienvenidos a Enjoy The App!</strong>
@@ -37,56 +41,55 @@
                     <strong class="text-xl text-blue-500">Hacia dónde apuntamos:</strong>
                     <h3>Nuestra visión a largo plazo es convertirnos en líderes del desarrollo de software en sectores clave, como la industria automotriz, la gestión empresarial y la optimización de procesos en pequeñas y medianas empresas. Queremos ser reconocidos por ofrecer soluciones tecnológicas que no solo funcionan, sino que también transforman la manera en que operan nuestros clientes.</h3>
                 </article>
-            </div>
+            </section>
+            <!-- Trabajos -->
+            <section class="min-h-screen w-screen flex flex-col justify-center items-center gap-6 p-8">
+                <strong class="text-2xl text-blue-500">Nuestros Productos:</strong>
+                <div class="flex justify-center items-start gap-6 flex-wrap">
+                    <article class="flex flex-col p-2 gap-4 w-72 hover:shadow-md hover:shadow-gray-700 aspect-[1/1.8] hover:scale-105">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Frestorant.webp?alt=media&token=cf480c4c-2f4e-4d04-afd2-7c000c156163" alt="restorant enjoy the app" class="w-72">
+                        <strong class="text-blue-500 text-lg">Soluciones para Restaurantes y Pubs:</strong>
+                        <h3>Apps para que los clientes ordenen y paguen desde su celular mediante códigos QR. Una mesa de restaurante con un QR en pantalla.</h3>
+                    </article>
+                    <article class="flex flex-col gap-4 w-72 hover:shadow-md hover:shadow-gray-700 p-2 aspect-[1/1.8] hover:scale-105">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fstock.webp?alt=media&token=a042a1f9-26a7-4c7f-a75d-a4e14c6a6461" alt="restorant enjoy the app" class="w-72">
+                        <strong class="text-blue-500 text-lg">Aplicaciones de Gestión de Bodegas:</strong>
+                        <h3>Apps que optimizan la gestión de inventarios con escaneo de códigos. Un almacén con un lector de códigos de barras en tu dispositivo mobil.</h3>
+                    </article>
+                    <article class="flex flex-col gap-4 w-72 hover:shadow-md hover:shadow-gray-700 p-2 aspect-[1/1.8] hover:scale-105">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fgestion-empresarial.webp?alt=media&token=6cf3f5a8-35a7-4e87-b106-6a913fe1a20b" alt="restorant enjoy the app" class="w-72">
+                        <strong class="text-blue-500 text-lg">Software de Gestión Empresarial:</strong>
+                        <h3>Sistemas de gestión de inventarios, ventas y finanzas. Un software con gráficos y reportes.</h3>
+                    </article>
+                    <article class="flex flex-col gap-4 w-72 hover:shadow-md hover:shadow-gray-700 p-2 aspect-[1/1.8] hover:scale-105">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fecommerce.webp?alt=media&token=dff2fce0-dbdc-452b-bbf3-ef8a7dfe830c" alt="restorant enjoy the app" class="w-72">
+                        <strong class="text-blue-500 text-lg">Soluciones de E-commerce:</strong>
+                        <h3>Creación de tiendas online completas con sistemas de gestión de pedidos y pagos. Un carrito de compras digital o una tienda virtual.</h3>
+                    </article>
+                    <article class="flex flex-col gap-4 w-72 hover:shadow-md hover:shadow-gray-700 p-2 aspect-[1/1.8] hover:scale-105">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Freservas.webp?alt=media&token=f53052b6-0e79-4c0e-a465-7d1a8c93615b" alt="restorant enjoy the app" class="w-72">
+                        <strong class="text-blue-500 text-lg">Sistemas para Reservas y Turnos:</strong>
+                        <h3>Herramientas para gestionar reservas en tiempo real para empresas como gimnasios, spas o clínicas. Un calendario digital o un sistema de reservas.</h3>
+                    </article>
+                    <article class="flex flex-col gap-4 w-72 hover:shadow-md hover:shadow-gray-700 p-2 aspect-[1/1.8] hover:scale-105">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fautomatizacion.webp?alt=media&token=ba0dc44b-ac94-42be-8112-8fbc732f6838" alt="restorant enjoy the app" class="w-72">
+                        <strong class="text-blue-500 text-lg">Automatización de Procesos:</strong>
+                        <h3>Herramientas para optimizar procesos repetitivos y ahorrar tiempo. Iconos de engranajes o un flujo de trabajo digital.</h3>
+                    </article>
+                </div>
+            </section>
+            <!-- Fin -->
+            <section class="min-h-screen w-screen flex justify-center items-center p-8">
+                <div class="flex justify-center items-center gap-8 flex-wrap max-w-6xl w-auto min-w-72">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fmvp.webp?alt=media&token=930ee75c-5bce-4b7a-8461-361e6b951314" alt="MVP enjoy the app" class="max-w-lg w-auto min-w-72">
+                    <article class="flex flex-col gap-4 max-w-lg">
+                        <strong class="text-xl text-blue-500">Haz crecer tu negocio con nosotros:</strong>
+                        <h3>En Enjoy The App, sabemos que cada negocio tiene desafíos únicos y oportunidades que pueden marcar la diferencia entre quedarse atrás o liderar en su industria. Por eso, nos especializamos en soluciones tecnológicas innovadoras y personalizadas que no solo abordan tus necesidades actuales, sino que también te preparan para el futuro. Si tienes una idea revolucionaria o un problema que te impide avanzar, estamos aquí para escucharte, entender tus objetivos y trabajar juntos en una solución que transforme tu visión en realidad. Desde aplicaciones móviles hasta plataformas web completas, nuestro equipo combina experiencia técnica, creatividad y un enfoque centrado en el cliente para ofrecer resultados que importan.</h3>
+                    </article>
+                </div>
+            </section>
         </main>
-
-        <section class="w-screen min-h-screen p-8 flex flex-col justify-center items-center gap-8">
-            <strong class="text-2xl text-blue-500">Nuestros Productos:</strong>
-            <div class="flex justify-center items-start gap-8 flex-wrap">
-                <article class="flex flex-col gap-4 w-72">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Frestorant.webp?alt=media&token=cf480c4c-2f4e-4d04-afd2-7c000c156163" alt="restorant enjoy the app" class="w-72">
-                    <strong class="text-blue-500 text-lg">Soluciones para Restaurantes y Pubs:</strong>
-                    <h3>Apps para que los clientes ordenen y paguen desde su celular mediante códigos QR. Una mesa de restaurante con un QR en pantalla.</h3>
-                </article>
-                <article class="flex flex-col gap-4 w-72">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fstock.webp?alt=media&token=a042a1f9-26a7-4c7f-a75d-a4e14c6a6461" alt="restorant enjoy the app" class="w-72">
-                    <strong class="text-blue-500 text-lg">Aplicaciones de Gestión de Bodegas:</strong>
-                    <h3>Apps que optimizan la gestión de inventarios con escaneo de códigos. Un almacén con un lector de códigos de barras en tu dispositivo mobil.</h3>
-                </article>
-                <article class="flex flex-col gap-4 w-72">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fgestion-empresarial.webp?alt=media&token=6cf3f5a8-35a7-4e87-b106-6a913fe1a20b" alt="restorant enjoy the app" class="w-72">
-                    <strong class="text-blue-500 text-lg">Software de Gestión Empresarial:</strong>
-                    <h3>Sistemas de gestión de inventarios, ventas y finanzas. Un software con gráficos y reportes.</h3>
-                </article>
-                <article class="flex flex-col gap-4 w-72">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fecommerce.webp?alt=media&token=dff2fce0-dbdc-452b-bbf3-ef8a7dfe830c" alt="restorant enjoy the app" class="w-72">
-                    <strong class="text-blue-500 text-lg">Soluciones de E-commerce:</strong>
-                    <h3>Creación de tiendas online completas con sistemas de gestión de pedidos y pagos. Un carrito de compras digital o una tienda virtual.</h3>
-                </article>
-                <article class="flex flex-col gap-4 w-72">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Freservas.webp?alt=media&token=f53052b6-0e79-4c0e-a465-7d1a8c93615b" alt="restorant enjoy the app" class="w-72">
-                    <strong class="text-blue-500 text-lg">Sistemas para Reservas y Turnos:</strong>
-                    <h3>Herramientas para gestionar reservas en tiempo real para empresas como gimnasios, spas o clínicas. Un calendario digital o un sistema de reservas.</h3>
-                </article>
-                <article class="flex flex-col gap-4 w-72">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fautomatizacion.webp?alt=media&token=ba0dc44b-ac94-42be-8112-8fbc732f6838" alt="restorant enjoy the app" class="w-72">
-                    <strong class="text-blue-500 text-lg">Automatización de Procesos:</strong>
-                    <h3>Herramientas para optimizar procesos repetitivos y ahorrar tiempo. Iconos de engranajes o un flujo de trabajo digital.</h3>
-                </article>
-            </div>
-        </section>
-        
-        <section class="w-screen flex justify-center items-center">
-            <div class="flex justify-center items-center gap-8 flex-wrap p-8 max-w-6xl w-auto min-w-72">
-                <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fmvp.webp?alt=media&token=930ee75c-5bce-4b7a-8461-361e6b951314" alt="MVP enjoy the app" class="max-w-lg w-auto min-w-72">
-                <article class="flex flex-col gap-4 max-w-lg">
-                    <strong class="text-xl text-blue-500">Haz crecer tu negocio con nosotros:</strong>
-                    <h3>En Enjoy The App, sabemos que cada negocio tiene desafíos únicos y oportunidades que pueden marcar la diferencia entre quedarse atrás o liderar en su industria. Por eso, nos especializamos en soluciones tecnológicas innovadoras y personalizadas que no solo abordan tus necesidades actuales, sino que también te preparan para el futuro. Si tienes una idea revolucionaria o un problema que te impide avanzar, estamos aquí para escucharte, entender tus objetivos y trabajar juntos en una solución que transforme tu visión en realidad. Desde aplicaciones móviles hasta plataformas web completas, nuestro equipo combina experiencia técnica, creatividad y un enfoque centrado en el cliente para ofrecer resultados que importan.</h3>
-                </article>
-            </div>
-        </section>
-        
-
+        <!-- Footer -->
         <footer class="bg-blue-500 flex justify-evenly items-center py-4 text-white gap-4 px-8 flex-wrap-reverse">
             <div class="flex flex-col justify-center items-start">
                 <strong>Contacto:</strong>
@@ -99,7 +102,7 @@
                 José Pablo Lubiano
             </div>
             <a href="/index.html">
-                <h1 class="text-white font-bold italic text-3xl py-2 flex justify-center items-center gap-1">
+                <h1 class="text-white font-bold italic text-2xl py-2 flex justify-center items-center gap-1 cursor-pointer hover:text-gray-700">
                     <p>Enjoy</p>
                     <p>The</p>
                     <p class="pl-1">App</p>
