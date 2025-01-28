@@ -1,12 +1,10 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    './src/**/*.{html,js,jsx,ts,tsx}',
-    './public/**/*.html',
-  ],
+  content: ['./**/*.html'], // Incluye tus archivos HTML
   theme: {
     extend: {
       screens: {
-        'xxl': '1912px', // Breakpoint personalizado para resoluciones mayores a 1912px
+        custom: '1248px', // Breakpoint personalizado
       },
     },
   },
