@@ -33,32 +33,31 @@
                      </a>
                  </div>
              </div>
-             <div class="w-full flex justify-evenly items-start gap-2 flex-wrap bg-blue-300 text-white py-1">
-                <a href="#inicio">Inicio</a>
-                <a href="#nosotros">Nosotros</a>
-                <a href="#productos">Productos</a>
-                <a href="#mvp">MvP</a>
+             <div class="w-full flex justify-evenly items-start gap-2 flex-wrap bg-blue-300 text-white py-1 px-2">
+                <a href="#inicio" class="hover:text-gray-700">Inicio</a>
+                <a href="#nosotros" class="hover:text-gray-700">Nosotros</a>
+                <a href="#productos" class="hover:text-gray-700">Productos</a>
+                <a href="#mvp" class="hover:text-gray-700">MvP</a>
              </div>
          </header>
-        <main class="flex flex-col justify-center items-center gap-8">
+        <main class="flex flex-col justify-center items-center gap-8 mt-28">
             <!-- Inicio -->
-            <section class="w-screen flex flex-col justify-center items-center gap-8 flex-wrap pt-8">
-                <article class="flex flex-col justify-center items-center gap-4 max-w-5xl w-3/4 min-w-72 xl:min-h-screen" id="inicio">
-                    <strong class="text-2xl text-blue-500">¡Bienvenidos a Enjoy The App!</strong>
-                    <h3>En Enjoy The App nos especializamos en desarrollo de software a medida, creando soluciones innovadoras que resuelven problemas reales y simplifican los procesos de nuestros clientes. Nuestra misión es transformar ideas en aplicaciones eficientes y funcionales, potenciando negocios de todos los tamaños con tecnología de vanguardia.</h3>
-                </article>
-                <article class="w-screen flex justify-center items-center gap-8 flex-wrap px-8 xl:min-h-screen" id="nosotros">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fenjoy-the-app.webp?alt=media&token=5aa384e2-06d7-4538-886f-c034c36f7832" alt="image enjoy the app" class="max-w-xl w-3/4 min-w-72 aspect-square">    
-                    <div class="flex flex-col gap-4 sm:max-w-xl md:max-w-xl lg:max-w-xl custom:max-w-md xl:max-w-md 2xl:max-w-md w-3/4 min-w-72">
-                        <strong class="text-xl text-blue-500">Nuestra visión:</strong>
-                        <h3>En Enjoy The App, creemos que la tecnología debe estar al servicio de las personas y los negocios, ofreciendo herramientas prácticas que hagan la vida más sencilla y eficiente. Nuestro objetivo es convertirnos en un socio estratégico para nuestros clientes, ayudándolos a alcanzar sus metas mediante soluciones tecnológicas que marquen la diferencia.</h3>
-                        <strong class="text-xl text-blue-500">Hacia dónde apuntamos:</strong>
-                        <h3>Nuestra visión a largo plazo es convertirnos en líderes del desarrollo de software en sectores clave, como la industria automotriz, la gestión empresarial y la optimización de procesos en pequeñas y medianas empresas. Queremos ser reconocidos por ofrecer soluciones tecnológicas que no solo funcionan, sino que también transforman la manera en que operan nuestros clientes.</h3>
-                    </div>
+            <section class="flex flex-col justify-center items-center gap-4 max-w-5xl w-3/4 min-w-72 xl:min-h-screen scroll-mt-28 xl:scroll-mt-2" id="inicio">
+                <strong class="text-2xl text-blue-500">¡Bienvenidos a Enjoy The App!</strong>
+                <h3>En Enjoy The App nos especializamos en desarrollo de software a medida, creando soluciones innovadoras que resuelven problemas reales y simplifican los procesos de nuestros clientes. Nuestra misión es transformar ideas en aplicaciones eficientes y funcionales, potenciando negocios de todos los tamaños con tecnología de vanguardia.</h3>
+            </section>
+            <!-- Nosotros -->
+            <section class="w-screen flex justify-center items-center gap-8 flex-wrap px-8 xl:min-h-screen scroll-mt-28 xl:scroll-mt-2" id="nosotros">
+                <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fenjoy-the-app.webp?alt=media&token=5aa384e2-06d7-4538-886f-c034c36f7832" alt="image enjoy the app" class="max-w-xl w-3/4 min-w-72 aspect-square">    
+                <article class="flex flex-col gap-4 sm:max-w-xl md:max-w-xl lg:max-w-xl custom:max-w-md xl:max-w-md 2xl:max-w-md w-3/4 min-w-72">
+                    <strong class="text-xl text-blue-500">Nuestra visión:</strong>
+                    <h3>En Enjoy The App, creemos que la tecnología debe estar al servicio de las personas y los negocios, ofreciendo herramientas prácticas que hagan la vida más sencilla y eficiente. Nuestro objetivo es convertirnos en un socio estratégico para nuestros clientes, ayudándolos a alcanzar sus metas mediante soluciones tecnológicas que marquen la diferencia.</h3>
+                    <strong class="text-xl text-blue-500">Hacia dónde apuntamos:</strong>
+                    <h3>Nuestra visión a largo plazo es convertirnos en líderes del desarrollo de software en sectores clave, como la industria automotriz, la gestión empresarial y la optimización de procesos en pequeñas y medianas empresas. Queremos ser reconocidos por ofrecer soluciones tecnológicas que no solo funcionan, sino que también transforman la manera en que operan nuestros clientes.</h3>
                 </article>
             </section>
-            <!-- Trabajos -->
-            <section class="w-screen flex flex-col justify-center items-center gap-6 xl:min-h-screen" id="productos">
+            <!-- Productos -->
+            <section class="w-screen flex flex-col justify-center items-center gap-6 xl:min-h-screen scroll-mt-28" id="productos">
                 <strong class="text-2xl text-blue-500">Nuestros Productos:</strong>
                 <div class="w-full flex justify-center items-start gap-6 flex-wrap">
                     <article class="flex flex-col p-2 gap-4 w-72 hover:shadow-md hover:shadow-gray-700 aspect-[1/1.8] hover:scale-105">
@@ -94,7 +93,7 @@
                 </div>
             </section>
             <!-- Fin -->
-            <section class="w-screen flex justify-center items-center gap-8 flex-wrap pb-8 px-8 xl:min-h-screen" id="mvp">
+            <section class="w-screen flex justify-center items-center gap-8 flex-wrap pb-8 px-8 xl:min-h-screen scroll-mt-28 xl:scroll-mt-6" id="mvp">
                 <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fmvp.webp?alt=media&token=930ee75c-5bce-4b7a-8461-361e6b951314" alt="MVP enjoy the app" class="max-w-xl w-3/4 min-w-72">
                 <article class="flex flex-col gap-4 sm:max-w-xl md:max-w-xl lg:max-w-sm xl:max-w-sm w-3/4 min-w-72">
                     <strong class="text-xl text-blue-500">Haz crecer tu negocio con nosotros:</strong>
