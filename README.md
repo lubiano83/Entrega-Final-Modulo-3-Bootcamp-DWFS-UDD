@@ -17,7 +17,7 @@ En **Enjoy The App** nos especializamos en el desarrollo de software personaliza
 - **Automatización de Procesos:** Aplicaciones que optimizan flujos de trabajo y reducen tareas repetitivas.
 
 ## ¿Cómo funciona la landing page?
-Nuestra página está diseñada con una estructura clara y sencilla, utilizando **HTML, Tailwind CSS y JavaScript**. Cuenta con:
+Nuestra página está diseñada con una estructura clara y sencilla, utilizando **HTML y Tailwind CSS**. Cuenta con:
 
 - **Navbar fijo** con acceso rápido a las secciones clave.
 - **Sección de inicio**, presentando la empresa y su enfoque en soluciones tecnológicas innovadoras.
