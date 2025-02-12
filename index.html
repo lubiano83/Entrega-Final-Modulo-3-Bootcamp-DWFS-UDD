@@ -5,8 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
         <script src="https://cdn.tailwindcss.com"></script>
-        <script src="components.js"></script>
-        <title>ETA - Inicio</title>
+        <title>ETA</title>
     </head>
     <body class="min-h-screen grid grid-rows-[auto_1fr_auto] font-mono">
         <!-- Navbar -->
@@ -32,13 +31,16 @@
             {fin}
         </main>
         <!-- Footer -->
-        <footer class="bg-blue-500 flex justify-evenly items-center py-4 text-white gap-4 px-8 flex-wrap-reverse">
+        <footer class="bg-blue-500 flex justify-evenly items-center py-4 text-white gap-8 px-8 flex-wrap-reverse">
             <!-- Contacto -->
             {contacto}
+            <!-- Links -->
+            {links}
             <!-- Equipo -->
-            <!-- {equipo} -->
+            {equipo}
             <!-- Logo -->
             {logo}
         </footer>
+        <script src="components.js"></script>
     </body>
 </html>

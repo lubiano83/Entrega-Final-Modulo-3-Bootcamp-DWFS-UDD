@@ -44,7 +44,7 @@ content.nosotros = `<section class="w-screen flex justify-center items-center ga
                         </article>
                     </section>`;
 
-content.productos = `<section class="w-screen flex flex-col justify-center items-center gap-6 min-h-screen scroll-mt-28" id="productos">
+content.productos = `<section class="w-screen flex flex-col justify-center items-center gap-4 min-h-screen scroll-mt-24" id="productos">
                 <strong class="text-2xl text-blue-500">Nuestros Productos:</strong>
                 <div class="w-full flex justify-center items-start gap-6 flex-wrap">
                     <!-- Mobile -->
@@ -135,4 +135,4 @@ document.addEventListener('DOMContentLoaded', () => {
     html = html.replaceAll(`{${tag}}`, data);
   });
   document.body.innerHTML = html;
-});
+}); // Esto lo vi en una prueba tecnica por si acaso, simplemente lo modifique como se me ocurrio utilizarlo a mi jaja
