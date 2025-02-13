@@ -10,4 +10,4 @@ export default function nosotros() {
             </article>
         </section>`
     )
-}
+};
