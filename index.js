@@ -10,15 +10,15 @@ import equipo from "./components/equipo.js";
 
 const content = {};
 
-content.logo = logo;
-content.links = links;
-content.menu = menu;
-content.inicio = inicio;
-content.nosotros = nosotros;
-content.productos = productos;
-content.mvp = mvp;
-content.contacto = contacto;
-content.equipo = equipo;
+content.logo = logo();
+content.links = links();
+content.menu = menu();
+content.inicio = inicio();
+content.nosotros = nosotros();
+content.productos = productos();
+content.mvp = mvp();
+content.contacto = contacto();
+content.equipo = equipo();
               
 // Emulate a mini template engine:
 document.addEventListener('DOMContentLoaded', () => {
