@@ -1,12 +1,12 @@
-import { logo } from "./components/logo.js";
-import { links } from "./components/links.js";
-import { menu } from "./components/menu.js";
-import { inicio } from "./components/inicio.js";
-import { nosotros } from "./components/nosotros.js";
-import { productos } from "./components/productos.js";
-import { mvp } from "./components/mvp.js";
-import { contacto } from "./components/contacto.js";
-import { equipo } from "./components/equipo.js";
+import logo from "./components/logo.js";
+import links from "./components/links.js";
+import menu from "./components/menu.js";
+import inicio from "./components/inicio.js";
+import nosotros from "./components/nosotros.js";
+import productos from "./components/productos.js";
+import mvp from "./components/mvp.js";
+import contacto from "./components/contacto.js";
+import equipo from "./components/equipo.js";
 
 const content = {};
 
