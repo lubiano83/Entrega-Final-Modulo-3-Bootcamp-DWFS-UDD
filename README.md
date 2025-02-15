@@ -26,6 +26,23 @@ Nuestra página está diseñada con una estructura clara y eficiente, utilizando
 - **Sección MVP:** Invita a los visitantes a colaborar con nosotros para convertir sus ideas en productos viables.
 - **Footer:** Incluye información de contacto, redes sociales y enlaces rápidos.
 
+## Estructura de JavaScript y Componentes Reutilizables
+Para mejorar la modularidad y mantenibilidad del código, la landing page utiliza **componentes reutilizables en JavaScript**. Estos se encargan de generar dinámicamente el contenido de la página y facilitar su actualización.
+
+Los principales componentes son:
+
+- **`logo.js`**: Renderiza el logotipo de la empresa en la navbar y el footer.
+- **`links.js`**: Contiene los enlaces de navegación en la barra superior y el footer.
+- **`menu.js`**: Gestiona el menú de navegación y su comportamiento responsivo.
+- **`inicio.js`**: Muestra la introducción a Enjoy The App.
+- **`nosotros.js`**: Explica nuestra visión y valores.
+- **`productos.js`**: Presenta los servicios y soluciones tecnológicas que ofrecemos.
+- **`mvp.js`**: Sección que motiva a los clientes a desarrollar un Producto Mínimo Viable con nuestra ayuda.
+- **`contacto.js`**: Contiene la información de contacto y los métodos de comunicación.
+- **`equipo.js`**: (Opcional) Puede incluir información sobre los miembros del equipo.
+
+Además, el **archivo principal `index.js`** actúa como un mini motor de plantillas, reemplazando dinámicamente los marcadores `{componente}` en el HTML con su respectivo contenido generado por JavaScript.
+
 ## Tecnologías utilizadas
 - **HTML5**
 - **Tailwind CSS** (para estilos rápidos y responsivos)
