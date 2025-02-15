@@ -1,37 +1,38 @@
 # Enjoy The App - Landing Page
 
 ## Descripción
-**Enjoy The App** es una empresa dedicada al desarrollo de software a medida, ofreciendo soluciones tecnológicas innovadoras para diversos sectores, como la industria automotriz, la gestión empresarial, la optimización de procesos en PYMEs y más. Nuestra landing page presenta nuestra visión, nuestros productos y la forma en que ayudamos a transformar ideas en aplicaciones eficientes y funcionales.
+**Enjoy The App** es una empresa especializada en el desarrollo de software a medida, ofreciendo soluciones tecnológicas innovadoras para diversos sectores. Nos enfocamos en la industria automotriz, la gestión empresarial, la optimización de procesos en PYMEs y otros mercados. Nuestra landing page está diseñada para mostrar nuestra visión, productos y la manera en que ayudamos a convertir ideas en aplicaciones funcionales y eficientes.
 
 ## Propósito
-El propósito de esta landing page es presentar a **Enjoy The App**, nuestros servicios y productos, así como conectar con clientes potenciales y generar nuevas oportunidades de negocio. La página permite a los visitantes conocer nuestra filosofía de trabajo, explorar nuestros productos y contactarnos fácilmente.
+El objetivo de esta landing page es presentar a **Enjoy The App**, sus servicios y productos, conectando con clientes potenciales y generando nuevas oportunidades de negocio. Los visitantes podrán conocer nuestra metodología de trabajo, explorar nuestros proyectos y contactarnos de manera sencilla.
 
 ## ¿Qué ofrecemos?
-En **Enjoy The App** nos especializamos en el desarrollo de software personalizado, brindando soluciones para:
+En **Enjoy The App**, desarrollamos software personalizado y ofrecemos soluciones para distintos sectores:
 
-- **Restaurantes y Pubs:** Aplicaciones para que los clientes puedan ordenar y pagar desde su celular mediante códigos QR.
-- **Gestión de Bodegas:** Apps para optimizar la administración de inventarios con escaneo de códigos.
-- **Software de Gestión Empresarial:** Herramientas de control de inventarios, ventas y finanzas.
-- **E-commerce:** Creación de tiendas en línea con sistemas de gestión de pedidos y pagos.
-- **Sistemas de Reservas y Turnos:** Soluciones en tiempo real para gimnasios, spas o clínicas.
-- **Automatización de Procesos:** Aplicaciones que optimizan flujos de trabajo y reducen tareas repetitivas.
+- **Restaurantes y Pubs:** Apps para que los clientes ordenen y paguen desde su celular mediante códigos QR.
+- **Gestión de Bodegas:** Aplicaciones para optimizar inventarios y escanear productos con dispositivos móviles.
+- **Software de Gestión Empresarial:** Herramientas para control de inventarios, ventas y finanzas.
+- **E-commerce:** Desarrollo de tiendas en línea con sistemas de pedidos y pagos integrados.
+- **Sistemas de Reservas y Turnos:** Plataformas en tiempo real para gimnasios, spas y clínicas.
+- **Automatización de Procesos:** Aplicaciones que optimizan flujos de trabajo y reducen tareas manuales.
 
 ## ¿Cómo funciona la landing page?
-Nuestra página está diseñada con una estructura clara y sencilla, utilizando **HTML y Tailwind CSS**. Cuenta con:
+Nuestra página está diseñada con una estructura clara y eficiente, utilizando **HTML, JavaScript y Tailwind CSS**. Cuenta con los siguientes componentes:
 
-- **Navbar fijo** con acceso rápido a las secciones clave.
-- **Sección de inicio**, presentando la empresa y su enfoque en soluciones tecnológicas innovadoras.
-- **Sección "Nosotros"**, donde explicamos nuestra visión y objetivos a largo plazo.
-- **Sección de productos**, donde detallamos nuestras soluciones tecnológicas.
-- **Sección MVP**, que invita a los visitantes a trabajar con nosotros para desarrollar su idea en un producto viable.
-- **Footer**, con información de contacto y enlaces a nuestras redes sociales.
+- **Navbar fijo:** Proporciona acceso rápido a todas las secciones principales.
+- **Sección de Inicio:** Introducción a nuestra empresa y nuestra visión en el desarrollo de software.
+- **Sección "Nosotros":** Explica nuestra filosofía de trabajo y objetivos a largo plazo.
+- **Sección de Productos:** Detalla las soluciones tecnológicas que ofrecemos.
+- **Sección MVP:** Invita a los visitantes a colaborar con nosotros para convertir sus ideas en productos viables.
+- **Footer:** Incluye información de contacto, redes sociales y enlaces rápidos.
 
 ## Tecnologías utilizadas
 - **HTML5**
-- **Tailwind CSS** (CDN para estilos rápidos y responsivos)
+- **Tailwind CSS** (para estilos rápidos y responsivos)
+- **JavaScript** (para interactividad y dinámica de componentes)
 
 ## Contacto
-Si estás interesado en conocer más sobre nuestros servicios o necesitas una solución tecnológica para tu negocio, puedes contactarnos a través de:
+Si estás interesado en conocer más sobre nuestros servicios o necesitas una solución personalizada para tu negocio, puedes contactarnos a través de:
 
 - **Correo:** lubiano83@gmail.com
 - **Teléfono:** +56988310042
@@ -41,7 +42,7 @@ Si estás interesado en conocer más sobre nuestros servicios o necesitas una so
 
 ## Ver Proyecto
 
-- Ir a la pagina: https://lubiano83.github.io/Entrega-Final-Modulo-3-Bootcamp-DWFS-UDD/
+- **URL del proyecto:** [Ir a la página](https://lubiano83.github.io/Entrega-Final-Modulo-3-Bootcamp-DWFS-UDD/)
 
 ## Licencia
 Este proyecto es de código cerrado y propiedad de **Enjoy The App**. Todos los derechos reservados.
