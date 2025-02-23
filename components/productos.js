@@ -1,7 +1,7 @@
 export default function productos() {
     return (
         `
-            <section class="w-screen flex flex-col justify-center items-center gap-4 min-h-screen scroll-mt-24" id="productos">
+            <section class="w-screen flex flex-col justify-center items-center gap-4 min-h-screen scroll-mt-24 xl:scroll-mt-0 xl:pl-56" id="productos">
                 <strong class="text-2xl text-blue-500">Nuestros Productos:</strong>
                 <div class="w-full flex justify-center items-start gap-6 flex-wrap">
                     <!-- Mobile -->

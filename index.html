@@ -9,16 +9,17 @@
     </head>
     <body class="min-h-screen grid grid-rows-[auto_1fr_auto] font-mono">
         <!-- Navbar -->
-         <header class="flex flex-col justify-center items-center fixed w-full z-10">
-            <div class="flex justify-evenly items-center bg-blue-500 px-4 py-2 gap-2 w-full">
-                <!-- Logo -->
-                {logo}
-                <!-- Links -->
-                {links}
-            </div>
+         <header class="flex justify-evenly items-center  px-4 py-2 gap-2 fixed w-full z-10 bg-blue-500 xl:pl-56 xl:static">
+            <!-- Logo -->
+            {logo}
+            <!-- Links -->
+            {links}
+         </header>
+         <!-- Aside -->
+         <aside class="mt-12 fixed w-full z-10 xl:mt-0">
             <!-- Menu -->
             {menu}
-         </header>
+         </aside>
         <!-- Main -->
         <main class="flex flex-col justify-center items-center gap-32 mt-28 xl:mt-2">
             <!-- Inicio -->
@@ -31,7 +32,7 @@
             {mvp}
         </main>
         <!-- Footer -->
-        <footer class="bg-blue-500 flex justify-evenly items-center py-4 text-white gap-8 px-8 flex-wrap-reverse">
+        <footer class="bg-blue-500 flex justify-evenly items-center py-4 text-white gap-8 px-8 flex-wrap-reverse xl:pl-56">
             <!-- Contacto -->
             {contacto}
             <!-- Links -->
