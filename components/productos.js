@@ -3,9 +3,7 @@ export default function productos() {
     function updateImages() {
         document.querySelectorAll("[data-img]").forEach((imgElement) => {
             const imageType = imgElement.getAttribute("data-img");
-            const isXL = window.innerWidth >= 1280; // Detecta si la pantalla es XL
-
-            // Lista de imágenes con su versión para XL y móvil
+            const isXL = window.innerWidth >= 1280;
             const images = {
                 "desarrollo-mobile": {
                     xl: "https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fdesarrollo-mobile.webp?alt=media&token=3bc37a31-78c4-4765-94a7-171ee90f7c3c",
@@ -40,15 +38,12 @@ export default function productos() {
                     mobile: "https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fautomatizacion-orange.webp?alt=media&token=36601f05-5342-4c29-94b5-7ef90f20c92e"
                 }
             };
-
-            // Cambiar la imagen según el tamaño de la pantalla
             imgElement.src = isXL ? images[imageType].xl : images[imageType].mobile;
         });
     }
 
-    // Ejecutar la actualización de imágenes al cargar la página y cuando la ventana se redimensione
     window.addEventListener("resize", updateImages);
-    updateImages(); // Ejecutar al inicio
+    updateImages();
 
     return (
         `
