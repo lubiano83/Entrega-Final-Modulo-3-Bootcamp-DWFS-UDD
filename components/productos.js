@@ -8,35 +8,35 @@ export default function productos() {
             // Lista de imágenes con su versión para XL y móvil
             const images = {
                 "desarrollo-mobile": {
-                    xl: "https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fdesarrollo-mobile.webp?alt=media",
+                    xl: "https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fdesarrollo-mobile.webp?alt=media&token=3bc37a31-78c4-4765-94a7-171ee90f7c3c",
                     mobile: "https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fmobil-orange.webp?alt=media&token=eb019ac2-9ad7-4a4a-bba6-025e3e928e2a"
                 },
                 "restorant": {
-                    xl: "https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Frestorant.webp?alt=media",
+                    xl: "https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Frestorant.webp?alt=media&token=cf480c4c-2f4e-4d04-afd2-7c000c156163",
                     mobile: "https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Frestorant-orange.webp?alt=media&token=8b9981d1-1f40-43fb-b899-3471a624fbed"
                 },
                 "stock": {
-                    xl: "https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fstock.webp?alt=media",
+                    xl: "https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fstock.webp?alt=media&token=a042a1f9-26a7-4c7f-a75d-a4e14c6a6461",
                     mobile: "https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fstock-orange.webp?alt=media&token=d3fad0cd-3cf6-4ddd-8014-7f32469fa578"
                 },
                 "reservas": {
-                    xl: "https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Freservas.webp?alt=media",
+                    xl: "https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Freservas.webp?alt=media&token=f53052b6-0e79-4c0e-a465-7d1a8c93615b",
                     mobile: "https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fcalendario-orange.webp?alt=media&token=d8ba21f3-ab02-411b-957d-e8dfb2fcb9c3"
                 },
                 "desarrollo-web": {
-                    xl: "https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fdesarrollo-web.webp?alt=media",
+                    xl: "https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fdesarrollo-web.webp?alt=media&token=17a39d88-0ada-4304-9d73-d57f44bb8991",
                     mobile: "https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fweb-orange.webp?alt=media&token=14ccf6fc-cbf0-4c46-97fb-7131b6f76fad"
                 },
                 "gestion-empresarial": {
-                    xl: "https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fgestion-empresarial.webp?alt=media",
+                    xl: "https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fgestion-empresarial.webp?alt=media&token=6cf3f5a8-35a7-4e87-b106-6a913fe1a20b",
                     mobile: "https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fempresa-orange.webp?alt=media&token=c976801e-9dd9-466d-83c6-ddd03682f7dd"
                 },
                 "ecommerce": {
-                    xl: "https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fecommerce.webp?alt=media",
+                    xl: "https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fecommerce.webp?alt=media&token=dff2fce0-dbdc-452b-bbf3-ef8a7dfe830c",
                     mobile: "https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fecommerce-orange.webp?alt=media&token=e5103073-34c3-4df1-96e7-fe51c1c1d1b1"
                 },
                 "automatizacion": {
-                    xl: "https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fautomatizacion.webp?alt=media",
+                    xl: "https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fautomatizacion.webp?alt=media&token=ba0dc44b-ac94-42be-8112-8fbc732f6838",
                     mobile: "https://firebasestorage.googleapis.com/v0/b/portfolio-3e2be.appspot.com/o/image-v2%2Fautomatizacion-orange.webp?alt=media&token=36601f05-5342-4c29-94b5-7ef90f20c92e"
                 }
             };
